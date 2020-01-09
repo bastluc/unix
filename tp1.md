@@ -31,6 +31,7 @@ mettre la carte réseau de la machine en bridge
 
 3. Résultat des commandes 
 
+~~~
 df -h
 
 Filesystem      Size  Used Avail Use% Mounted on
@@ -43,7 +44,7 @@ tmpfs           242M     0  242M   0% /sys/fs/cgroup
 /dev/sda3       453M  5.3M  420M   2% /var/log
 /dev/sda2       1.9G  5.7M  1.7G   1% /tmp
 tmpfs            49M     0   49M   0% /run/user/0
-
+~~~
 
 fdisk -l
 
