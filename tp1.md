@@ -31,6 +31,7 @@ mettre la carte réseau de la machine en bridge
 
 3. Résultat des commandes 
 
+~~~
 df -h
 
 Filesystem      Size  Used Avail Use% Mounted on
@@ -43,8 +44,8 @@ tmpfs           242M     0  242M   0% /sys/fs/cgroup
 /dev/sda3       453M  5.3M  420M   2% /var/log
 /dev/sda2       1.9G  5.7M  1.7G   1% /tmp
 tmpfs            49M     0   49M   0% /run/user/0
-
-
+~~~
+~~~
 fdisk -l
 
 Disk /dev/sda: 10 GiB, 10737418240 bytes, 20971520 sectors
@@ -59,12 +60,12 @@ Device        Start      End Sectors  Size Type
 /dev/sda1      2048  9764863 9762816  4.7G Linux filesystem
 /dev/sda2   9764864 13670399 3905536  1.9G Linux filesystem
 /dev/sda3  19994624 20969471  974848  476M Linux filesystem
-
-
+~~~
+~~~
 dpkg -l | wc -l
 
 561
-
+~~~
 
 
 
