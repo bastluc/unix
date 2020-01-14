@@ -66,7 +66,7 @@ Device        Start      End Sectors  Size Type
 ~~~
 dpkg -l | wc -l
 
-561
+544
 ~~~
 
 ## 2. Aller plus loin 
