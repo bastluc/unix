@@ -69,6 +69,22 @@ dpkg -l | wc -l
 561
 ~~~
 
+## 2. Aller plus loin 
+
+2.1 Installation automatique
+
+preseed permet d'installer automatiquement une Debian en listant dans un fichier tous les paramètres voulus.
+
+2.2 Rescue mode
+
+- redémarrer la machine en restant appuyé sur la touche ESC
+- choisir le boot de type "Recovery Mode"
+- Une fois que c’est booté, vous aurez un shell apparait
+- Taper la commande "passwd votre_nom_d_utilisateur"
+- entrer le nouveau mot de passe quand cela est demandé
+- redémarrer la machine
+
+
 
 
 
